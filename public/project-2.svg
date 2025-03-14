@@ -1,0 +1,18 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#0F172A"/>
+  <path d="M400 100 C550 100 650 200 650 300 C650 400 550 500 400 500 C250 500 150 400 150 300 C150 200 250 100 400 100" fill="#00D8FF" opacity="0.1"/>
+  <rect x="200" y="150" width="400" height="300" rx="15" fill="#0A1122" stroke="#00D8FF" strokeWidth="2"/>
+  <text x="250" y="200" fontFamily="sans-serif" fontSize="24" fontWeight="bold" fill="#FFFFFF">Task Manager</text>
+  <rect x="250" y="230" width="300" height="40" rx="5" fill="#0F172A" stroke="#6C63FF" strokeWidth="1"/>
+  <text x="265" y="255" fontFamily="sans-serif" fontSize="14" fill="#FFFFFF">Finish portfolio website</text>
+  <rect x="550" y="230" width="20" height="20" rx="2" fill="none" stroke="#6C63FF" strokeWidth="2"/>
+  <rect x="250" y="280" width="300" height="40" rx="5" fill="#0F172A" stroke="#6C63FF" strokeWidth="1"/>
+  <text x="265" y="305" fontFamily="sans-serif" fontSize="14" fill="#FFFFFF">Learn GraphQL</text>
+  <rect x="550" y="280" width="20" height="20" rx="2" fill="none" stroke="#6C63FF" strokeWidth="2"/>
+  <rect x="250" y="330" width="300" height="40" rx="5" fill="#0F172A" stroke="#6C63FF" strokeWidth="1"/>
+  <text x="265" y="355" fontFamily="sans-serif" fontSize="14" fill="#FFFFFF">Deploy app to production</text>
+  <rect x="550" y="330" width="20" height="20" rx="2" fill="#6C63FF"/>
+  <path d="M554 338 L560 344 L566 332" stroke="#FFFFFF" strokeWidth="2" fill="none"/>
+  <rect x="250" y="380" width="150" height="35" rx="5" fill="#6C63FF"/>
+  <text x="293" y="402" fontFamily="sans-serif" fontSize="14" fill="#FFFFFF">Add Task</text>
+</svg>

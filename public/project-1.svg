@@ -1,0 +1,17 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#0F172A"/>
+  <path d="M400 100 C550 100 650 200 650 300 C650 400 550 500 400 500 C250 500 150 400 150 300 C150 200 250 100 400 100" fill="#6C63FF" opacity="0.1"/>
+  <rect x="200" y="150" width="400" height="300" rx="15" fill="#0A1122" stroke="#6C63FF" strokeWidth="2"/>
+  <circle cx="250" cy="180" r="10" fill="#FC6D8E"/>
+  <circle cx="280" cy="180" r="10" fill="#6C63FF"/>
+  <circle cx="310" cy="180" r="10" fill="#00D8FF"/>
+  <text x="220" y="230" fontFamily="monospace" fontSize="14" fill="#FC6D8E">$ crypto-dashboard</text>
+  <text x="220" y="260" fontFamily="monospace" fontSize="14" fill="#FFFFFF">Loading market data...</text>
+  <rect x="220" y="290" width="360" height="15" rx="7.5" fill="#0F172A"/>
+  <rect x="220" y="290" width="240" height="15" rx="7.5" fill="#6C63FF"/>
+  <text x="220" y="330" fontFamily="monospace" fontSize="14" fill="#00D8FF">Bitcoin: $48,235.12 (+3.5%)</text>
+  <text x="220" y="360" fontFamily="monospace" fontSize="14" fill="#FFFFFF">Ethereum: $3,126.78 (+2.1%)</text>
+  <text x="220" y="390" fontFamily="monospace" fontSize="14" fill="#FFFFFF">Portfolio Value: $12,583.44</text>
+  <circle cx="560" cy="340" r="40" fill="#0F172A" stroke="#FC6D8E" strokeWidth="2"/>
+  <path d="M540 340 L560 360 L580 320" stroke="#FC6D8E" strokeWidth="3" fill="none"/>
+</svg>

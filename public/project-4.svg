@@ -1,0 +1,34 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#0F172A"/>
+  <path d="M400 100 C550 100 650 200 650 300 C650 400 550 500 400 500 C250 500 150 400 150 300 C150 200 250 100 400 100" fill="#00D8FF" opacity="0.1"/>
+  <rect x="200" y="150" width="400" height="300" rx="15" fill="#0A1122" stroke="#00D8FF" strokeWidth="2"/>
+  <text x="250" y="200" fontFamily="sans-serif" fontSize="24" fontWeight="bold" fill="#FFFFFF">Weather App</text>
+  <text x="380" y="200" fontFamily="sans-serif" fontSize="16" fill="#00D8FF">Istanbul</text>
+  <circle cx="300" cy="290" r="60" fill="#0F172A" stroke="#6C63FF" strokeWidth="2"/>
+  <text x="300" y="300" fontFamily="sans-serif" fontSize="28" fontWeight="bold" fill="#FFFFFF" textAnchor="middle">21°C</text>
+  <text x="300" y="330" fontFamily="sans-serif" fontSize="14" fill="#00D8FF" textAnchor="middle">Partly Cloudy</text>
+  <path d="M420 260 L520 260" stroke="#FFFFFF" strokeOpacity="0.3" strokeWidth="1"/>
+  <text x="420" y="250" fontFamily="sans-serif" fontSize="12" fill="#FFFFFF">Today</text>
+  <circle cx="440" cy="280" r="15" fill="#6C63FF" opacity="0.7"/>
+  <text x="440" y="285" fontFamily="sans-serif" fontSize="10" fill="#FFFFFF" textAnchor="middle">21°</text>
+  <circle cx="480" cy="280" r="15" fill="#00D8FF" opacity="0.7"/>
+  <text x="480" y="285" fontFamily="sans-serif" fontSize="10" fill="#FFFFFF" textAnchor="middle">19°</text>
+  <circle cx="520" cy="280" r="15" fill="#FC6D8E" opacity="0.7"/>
+  <text x="520" y="285" fontFamily="sans-serif" fontSize="10" fill="#FFFFFF" textAnchor="middle">23°</text>
+  <path d="M420 320 L520 320" stroke="#FFFFFF" strokeOpacity="0.3" strokeWidth="1"/>
+  <text x="420" y="310" fontFamily="sans-serif" fontSize="12" fill="#FFFFFF">Tomorrow</text>
+  <circle cx="440" cy="340" r="15" fill="#FC6D8E" opacity="0.7"/>
+  <text x="440" y="345" fontFamily="sans-serif" fontSize="10" fill="#FFFFFF" textAnchor="middle">24°</text>
+  <circle cx="480" cy="340" r="15" fill="#FC6D8E" opacity="0.7"/>
+  <text x="480" y="345" fontFamily="sans-serif" fontSize="10" fill="#FFFFFF" textAnchor="middle">25°</text>
+  <circle cx="520" cy="340" r="15" fill="#6C63FF" opacity="0.7"/>
+  <text x="520" y="345" fontFamily="sans-serif" fontSize="10" fill="#FFFFFF" textAnchor="middle">22°</text>
+  <path d="M420 380 L520 380" stroke="#FFFFFF" strokeOpacity="0.3" strokeWidth="1"/>
+  <text x="420" y="370" fontFamily="sans-serif" fontSize="12" fill="#FFFFFF">Wednesday</text>
+  <circle cx="440" cy="400" r="15" fill="#00D8FF" opacity="0.7"/>
+  <text x="440" y="405" fontFamily="sans-serif" fontSize="10" fill="#FFFFFF" textAnchor="middle">18°</text>
+  <circle cx="480" cy="400" r="15" fill="#00D8FF" opacity="0.7"/>
+  <text x="480" y="405" fontFamily="sans-serif" fontSize="10" fill="#FFFFFF" textAnchor="middle">17°</text>
+  <circle cx="520" cy="400" r="15" fill="#00D8FF" opacity="0.7"/>
+  <text x="520" y="405" fontFamily="sans-serif" fontSize="10" fill="#FFFFFF" textAnchor="middle">16°</text>
+</svg>

@@ -1,0 +1,20 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#0F172A"/>
+  <path d="M400 100 C550 100 650 200 650 300 C650 400 550 500 400 500 C250 500 150 400 150 300 C150 200 250 100 400 100" fill="#FC6D8E" opacity="0.1"/>
+  <rect x="200" y="150" width="400" height="300" rx="15" fill="#0A1122" stroke="#FC6D8E" strokeWidth="2"/>
+  <rect x="230" y="180" width="340" height="60" rx="10" fill="#0F172A"/>
+  <text x="250" y="220" fontFamily="sans-serif" fontSize="22" fontWeight="bold" fill="#FFFFFF">Tech Shop</text>
+  <path d="M530 210 C530 205 525 200 520 200 L510 200 L510 220 L520 220 C525 220 530 215 530 210" fill="none" stroke="#FC6D8E" strokeWidth="2"/>
+  <circle cx="510" cy="225" r="3" fill="#FC6D8E"/>
+  <text x="515" y="215" fontFamily="sans-serif" fontSize="10" fill="#FC6D8E">3</text>
+  <rect x="230" y="260" width="160" height="160" rx="10" fill="#0F172A"/>
+  <rect x="240" y="330" width="140" height="80" rx="5" fill="#0A1122"/>
+  <text x="260" y="375" fontFamily="sans-serif" fontSize="12" fill="#FFFFFF">Wireless Headphones</text>
+  <text x="260" y="395" fontFamily="sans-serif" fontSize="14" fontWeight="bold" fill="#6C63FF">$149.99</text>
+  <rect x="410" y="260" width="160" height="160" rx="10" fill="#0F172A"/>
+  <rect x="420" y="330" width="140" height="80" rx="5" fill="#0A1122"/>
+  <text x="440" y="375" fontFamily="sans-serif" fontSize="12" fill="#FFFFFF">Smart Watch</text>
+  <text x="440" y="395" fontFamily="sans-serif" fontSize="14" fontWeight="bold" fill="#6C63FF">$299.99</text>
+  <circle cx="310" cy="300" r="30" fill="#FC6D8E" opacity="0.3"/>
+  <circle cx="490" cy="300" r="30" fill="#6C63FF" opacity="0.3"/>
+</svg>
