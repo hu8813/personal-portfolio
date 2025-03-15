@@ -98,8 +98,7 @@ export const personalInfo = {
           technologies: ["React Native", "TypeScript", "Firebase"],
           image: "/projects/trivia.png", // Add image paths if available
           demoUrl: "https://play.google.com/store/apps/details?id=com.programming.codequiz",
-          githubUrl: "https://github.com/hu8813/trivia-quizapp",
-          category: "Mobile App"
+           category: "Mobile App"
         },
         {
           title: "Chatfinity",
@@ -116,8 +115,7 @@ export const personalInfo = {
           technologies: ["Next.js", "Realtime Speech API", "OpenAI API"],
           image: "/projects/aivoca.png",
           demoUrl: "https://aivoca.vercel.app/",
-          githubUrl: "https://github.com/hu8813/aivoca",
-          category: "Web Application"
+           category: "Web Application"
         },
         {
           title: "myNb Document to Podcast",
@@ -125,15 +123,14 @@ export const personalInfo = {
           technologies: ["Next.js", "Postgresql", "AI API"],
           image: "/projects/mynb.png",
           demoUrl: "https://myNb.info/",
-          githubUrl: "https://github.com/hu8813/mynotes",
-          category: "Web Application"
+           category: "Web Application"
         },
         {
           title: "42 Core Projects",
           description: "Collection of projects completed during the 42Vienna Programming School curriculum, focusing on C and C++ development.",
           technologies: ["C", "C++", "Shell", "Algorithms"],
           image: "/projects/42projects.png",
-          githubUrl: "https://github.com/hu8813/42_core_projects",
+          githubUrl: "https://github.com/hu8813",
           category: "Academic"
         }
       ]
