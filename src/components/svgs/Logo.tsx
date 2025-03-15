@@ -13,12 +13,39 @@ const Logo = ({ className = '' }: { className?: string }) => {
           <stop offset="100%" stopColor="#FC6D8E" />
         </linearGradient>
       </defs>
-      <rect x="20" y="20" width="25" height="60" rx="4" fill="url(#logo-gradient)" />
-      <rect x="55" y="20" width="25" height="25" rx="4" fill="url(#logo-gradient)" />
-      <rect x="55" y="55" width="25" height="25" rx="4" fill="url(#logo-gradient)" />
-      <path d="M45 50 L70 50" stroke="url(#logo-gradient)" strokeWidth="5" strokeLinecap="round" />
-      <path d="M45 30 L55 30" stroke="url(#logo-gradient)" strokeWidth="5" strokeLinecap="round" />
-      <path d="M45 70 L55 70" stroke="url(#logo-gradient)" strokeWidth="5" strokeLinecap="round" />
+      
+      {/* Background Circle */}
+      <circle cx="50" cy="50" r="45" fill="none" stroke="url(#logo-gradient)" strokeWidth="2" />
+      
+      {/* H Letter */}
+      <path 
+        d="M25 30 L25 70 M25 50 L40 50 M40 30 L40 70" 
+        stroke="url(#logo-gradient)" 
+        strokeWidth="6" 
+        strokeLinecap="round" 
+        strokeLinejoin="round"
+        fill="none" 
+      />
+      
+      {/* K Letter */}
+      <path 
+        d="M50 30 L50 70 M50 50 L65 30 M50 50 L65 70" 
+        stroke="url(#logo-gradient)" 
+        strokeWidth="6" 
+        strokeLinecap="round" 
+        strokeLinejoin="round"
+        fill="none" 
+      />
+      
+      {/* A Letter */}
+      <path 
+        d="M70 70 L77.5 30 L85 70 M72 55 L83 55" 
+        stroke="url(#logo-gradient)" 
+        strokeWidth="6" 
+        strokeLinecap="round" 
+        strokeLinejoin="round"
+        fill="none" 
+      />
     </svg>
   );
 };
