@@ -94,7 +94,7 @@ export const personalInfo = {
     projects: [
         {
           title: "Trivia QuizApp",
-          description: "A mobile quiz application with thousands of questions across multiple categories. Features include score tracking, difficulty levels, and social sharing.",
+          description: "A mobile quiz application with multilingual questions across multiple categories",
           technologies: ["React Native", "TypeScript", "Firebase"],
           image: "/projects/trivia.png", // Add image paths if available
           demoUrl: "https://play.google.com/store/apps/details?id=com.programming.codequiz",
@@ -103,7 +103,7 @@ export const personalInfo = {
         },
         {
           title: "Chatfinity",
-          description: "An AI-powered chat application with multiple conversation models and capabilities.",
+          description: "Create an AI chatbot for any website in minutes.",
           technologies: ["Next.js", "TypeScript", "OpenAI API", "Tailwind CSS"],
           image: "/projects/chatfinity.png",
           demoUrl: "https://Chatfinity.info",
@@ -111,18 +111,18 @@ export const personalInfo = {
           category: "Web Application"
         },
         {
-          title: "AI Vocabulary App",
-          description: "A language learning application that uses AI to generate personalized vocabulary exercises.",
-          technologies: ["React", "Node.js", "OpenAI API"],
+          title: "AiVoca AI Language Tutor",
+          description: "A language learning application that uses AI to practise many languages.",
+          technologies: ["Next.js", "Realtime Speech API", "OpenAI API"],
           image: "/projects/aivoca.png",
           demoUrl: "https://aivoca.vercel.app/",
           githubUrl: "https://github.com/hu8813/aivoca",
           category: "Web Application"
         },
         {
-          title: "Personal Notes",
-          description: "A minimalist note-taking application with markdown support and cloud synchronization.",
-          technologies: ["Vue.js", "Firebase", "Markdown"],
+          title: "myNb Document to Podcast",
+          description: "A web application that converts markdown notes into audio podcasts using Text-to-Speech API.",
+          technologies: ["Next.js", "Postgresql", "AI API"],
           image: "/projects/mynb.png",
           demoUrl: "https://myNb.info/",
           githubUrl: "https://github.com/hu8813/mynotes",
