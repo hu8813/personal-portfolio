@@ -96,7 +96,7 @@ export const personalInfo = {
           title: "Trivia QuizApp",
           description: "A mobile quiz application with thousands of questions across multiple categories. Features include score tracking, difficulty levels, and social sharing.",
           technologies: ["React Native", "TypeScript", "Firebase"],
-          image: "/projects/trivia-quizapp.jpg", // Add image paths if available
+          image: "/projects/trivia.png", // Add image paths if available
           demoUrl: "https://play.google.com/store/apps/details?id=com.programming.codequiz",
           githubUrl: "https://github.com/hu8813/trivia-quizapp",
           category: "Mobile App"
@@ -105,7 +105,7 @@ export const personalInfo = {
           title: "Chatfinity",
           description: "An AI-powered chat application with multiple conversation models and capabilities.",
           technologies: ["Next.js", "TypeScript", "OpenAI API", "Tailwind CSS"],
-          image: "/projects/chatfinity.jpg",
+          image: "/projects/chatfinity.png",
           demoUrl: "https://Chatfinity.info",
           githubUrl: "https://github.com/hu8813/chatfinity",
           category: "Web Application"
@@ -114,7 +114,7 @@ export const personalInfo = {
           title: "AI Vocabulary App",
           description: "A language learning application that uses AI to generate personalized vocabulary exercises.",
           technologies: ["React", "Node.js", "OpenAI API"],
-          image: "/projects/aivoca.jpg",
+          image: "/projects/aivoca.png",
           demoUrl: "https://aivoca.vercel.app/",
           githubUrl: "https://github.com/hu8813/aivoca",
           category: "Web Application"
@@ -123,7 +123,7 @@ export const personalInfo = {
           title: "Personal Notes",
           description: "A minimalist note-taking application with markdown support and cloud synchronization.",
           technologies: ["Vue.js", "Firebase", "Markdown"],
-          image: "/projects/mynotes.jpg",
+          image: "/projects/mynb.png",
           demoUrl: "https://myNb.info/",
           githubUrl: "https://github.com/hu8813/mynotes",
           category: "Web Application"
@@ -132,7 +132,7 @@ export const personalInfo = {
           title: "42 Core Projects",
           description: "Collection of projects completed during the 42Vienna Programming School curriculum, focusing on C and C++ development.",
           technologies: ["C", "C++", "Shell", "Algorithms"],
-          image: "/projects/42projects.jpg",
+          image: "/projects/42projects.png",
           githubUrl: "https://github.com/hu8813/42_core_projects",
           category: "Academic"
         }
