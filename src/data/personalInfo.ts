@@ -18,64 +18,11 @@ export const personalInfo = {
       "Python"
     ],
     
-    education: [
-      {
-        period: "2022-2024",
-        institution: "Programming School at 42Vienna",
-        description: "Completed Common Core, currently doing Mastery."
-      },
-      {
-        period: "2019-2020",
-        institution: "IT Courses at BFI Wien",
-        description: "Courses in Java, C#, Adobe Photoshop, Illustrator, and In-Design."
-      },
-      {
-        period: "2008-2018",
-        institution: "B.Sc. in Business Administration with specialization in Business Information Systems at WU Wien",
-        description: "Developed a POS software integrating Rexx language with JavaFx for my bachelor thesis."
-      },
-      {
-        period: "2006-2007",
-        institution: "German Language Course at VWU Wien",
-        description: "Achieved B2 level proficiency in German."
-      }
-    ],
     
-    experience: [
-      {
-        period: "2022",
-        position: "Bus Driver course",
-        company: "Wiener Linien",
-        description: "Completed Bus Driver course."
-      },
-      {
-        period: "2014-2020",
-        position: "Allrounder",
-        company: "Pizzeria in Wien",
-        description: ""
-      },
-      {
-        period: "2005",
-        position: "Freelance Web Developer",
-        company: "",
-        description: "Developed and optimized websites for various companies in Turkey."
-      }
-    ],
-    
-    achievements: [
-      {
-        year: "2023",
-        title: "Winner of KTM Code the Light Fantastic",
-        description: "Python, Machine Learning."
-      }
-    ],
     
     portfolioProjects: "Explore my projects on GitHub, including the partially developed mobile app \"Trivia QuizApp\" available on both Android and iOS.",
     
-    additionalQualifications: [
-      "Driving Licenses: B, D, D95, Taxischein Wien",
-      "Languages: English (B2), Turkish (Native), German (B2)"
-    ],
+    
     
     // Social media links
     social: {
