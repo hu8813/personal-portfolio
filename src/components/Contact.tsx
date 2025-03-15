@@ -1,9 +1,15 @@
 "use client";
 
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import emailjs from '@emailjs/browser';
 import { personalInfo } from '../data/personalInfo';
-import { motion } from 'framer-motion'; // You may need to install this: npm install framer-motion
+import { motion } from 'framer-motion';
+
+// Anti-spam constants
+const MAX_MESSAGES_ALLOWED = 5;
+const STORAGE_KEY = 'contact_message_count';
+const LAST_MESSAGE_TIME_KEY = 'last_message_time';
+const COOLDOWN_PERIOD_HOURS = 24; // Reset counter after 24 hours
 
 const Contact: React.FC = () => {
   const formRef = useRef<HTMLFormElement>(null);
@@ -15,6 +21,36 @@ const Contact: React.FC = () => {
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [formStatus, setFormStatus] = useState<{success?: boolean; message: string}>({ message: '' });
+  
+  // Check message count from localStorage
+  const checkMessageCount = (): number => {
+    if (typeof window === 'undefined') return 0;
+    
+    const storedCount = localStorage.getItem(STORAGE_KEY);
+    const lastMessageTime = localStorage.getItem(LAST_MESSAGE_TIME_KEY);
+    
+    // Reset counter if it's been more than the cooldown period
+    if (lastMessageTime) {
+      const timeSinceLastMessage = Date.now() - parseInt(lastMessageTime);
+      const hoursSinceLastMessage = timeSinceLastMessage / (1000 * 60 * 60);
+      
+      if (hoursSinceLastMessage > COOLDOWN_PERIOD_HOURS) {
+        localStorage.setItem(STORAGE_KEY, '0');
+        return 0;
+      }
+    }
+    
+    return storedCount ? parseInt(storedCount) : 0;
+  };
+  
+  // Increment message count in localStorage
+  const incrementMessageCount = (): void => {
+    if (typeof window === 'undefined') return;
+    
+    const currentCount = checkMessageCount();
+    localStorage.setItem(STORAGE_KEY, (currentCount + 1).toString());
+    localStorage.setItem(LAST_MESSAGE_TIME_KEY, Date.now().toString());
+  };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
@@ -25,6 +61,27 @@ const Contact: React.FC = () => {
     e.preventDefault();
     setIsSubmitting(true);
     setFormStatus({ message: '' });
+    
+    // Check if user has exceeded message limit
+    const messageCount = checkMessageCount();
+    
+    if (messageCount >= MAX_MESSAGES_ALLOWED) {
+      // Simulate a delay for realism
+      await new Promise(resolve => setTimeout(resolve, 1200));
+      
+      // Show fake success message without sending email
+      setFormStatus({
+        success: true,
+        message: 'Thank you! Your message has been sent successfully.'
+      });
+      setFormData({ name: '', email: '', subject: '', message: '' });
+      if (formRef.current) formRef.current.reset();
+      setIsSubmitting(false);
+      
+      // Log to console that this was blocked (for debugging)
+      console.log('Message blocked: Rate limit exceeded');
+      return;
+    }
 
     try {
       // Initialize EmailJS with your public key from environment variable
@@ -41,6 +98,9 @@ const Contact: React.FC = () => {
           reply_to: formData.email,
         }
       );
+
+      // Increment message count after successful send
+      incrementMessageCount();
 
       setFormStatus({
         success: true,
