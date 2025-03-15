@@ -1,7 +1,7 @@
 export const personalInfo = {
     name: "Hüseyin Kaya Aydin",
     nationality: "Austrian",
-    location: "Böcklinstr. 48, 1020 Vienna",
+    location: "1020 Vienna, Austria",
     phone: "+43 680 156 31 51",
     email: "kayahw4@gmail.com",
     github: "hu8813",
