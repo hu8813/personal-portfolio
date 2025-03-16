@@ -40,7 +40,7 @@ export const personalInfo = {
         {
           title: "Trivia QuizApp",
           description: "A mobile quiz application with multilingual questions across multiple categories",
-          technologies: ["React Native", "TypeScript", "Firebase"],
+          technologies: ["Flutter", "Dart", "Php", "MySql"],
           image: "/projects/trivia.png", // Add image paths if available
           demoUrl: "https://play.google.com/store/apps/details?id=com.programming.codequiz",
            category: "Mobile App"
@@ -65,11 +65,19 @@ export const personalInfo = {
         {
           title: "myNb Document to Podcast",
           description: "A web application that converts markdown notes into audio podcasts using Text-to-Speech API.",
-          technologies: ["Next.js", "Postgresql", "AI API"],
+          technologies: ["Next.js", "Postgresql", "Openai API", "Text to Speech API"],
           image: "/projects/mynb.png",
           demoUrl: "https://myNb.info/",
            category: "Web Application"
         },
+        {
+            title: "AI Interview Feedback Generator",
+            description: "Get AI-powered feedback on Job interview.",
+            technologies: ["Next.js",  "Openai API"],
+            image: "/projects/aiinterview.png",
+            demoUrl: "https://ai-interview-feedback.vercel.app/",
+             category: "Web Application"
+          },
         {
           title: "42 Core Projects",
           description: "Collection of projects completed during the 42Vienna Programming School curriculum, focusing on C and C++ development.",
