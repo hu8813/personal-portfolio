@@ -1,9 +1,7 @@
 export const personalInfo = {
     name: "Hüseyin Kaya Aydin",
     nationality: "Austrian",
-    location: "1020 Vienna, Austria",
-    phone: "+43 680 156 31 51",
-    email: "kayahw4@gmail.com",
+    location: "Vienna, Austria",
     github: "hu8813",
     about: "I am a passionate software developer with extensive experience in programming, particularly in C and C++. I have been honing my skills at 42Vienna Programming School since October 2022. My journey in software development is driven by practical projects and peer collaboration.",
     
