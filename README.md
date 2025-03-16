@@ -40,7 +40,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Environment Variables
 
-To make the contact form work properly, create a `.env.local` file in the root directory with the following variables:
+To make the contact form work properly, create a `.env` file in the root directory with the following variables:
 
 ```bash
 # Contact form (example using EmailJS)
@@ -55,10 +55,8 @@ NEXT_PUBLIC_EMAILJS_USER_ID=your_user_id
 
 To customize the portfolio with your personal information:
 
-1. Edit the user data in `src/data/user.ts` file to update your name, bio, skills, and social links
-2. Modify the project information in `src/data/projects.ts`
-3. Update your resume in the `public` folder
-4. Replace profile images in the `public/images` directory
+1. Edit the user data in `src/data/personalInfo.ts` file to update your name, bio, skills, and social links
+2. Replace profile or project images in the `public/` directory
 
 ## License
 
