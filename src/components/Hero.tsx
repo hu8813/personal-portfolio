@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import HeroSvg from './svgs/HeroSvg';
-import { FaArrowDown } from 'react-icons/fa';
+import { FaArrowUp } from 'react-icons/fa';
 
 const HeroText = () => {
   const roles = ['Developer', 'Problem Solver', 'Creator'];
@@ -131,8 +131,8 @@ const Hero = () => {
           transition={{ delay: 1.5, duration: 0.5, yoyo: Infinity, repeatDelay: 0.5 }}
         >
           <a href="#about" className="flex flex-col items-center text-light/50 hover:text-light">
-            <span className="text-sm mb-2">Scroll Down</span>
-            <FaArrowDown />
+            <span className="text-sm mb-2">Scroll Up</span>
+            <FaArrowUp />
           </a>
         </motion.div>
       </div>
