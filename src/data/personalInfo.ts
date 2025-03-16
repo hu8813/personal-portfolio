@@ -47,7 +47,7 @@ export const personalInfo = {
         },
         {
           title: "Chatfinity",
-          description: "Create an AI chatbot for any website in minutes.",
+          description: "A fork of Open Source project that enables to create an AI chatbot for any website in minutes.",
           technologies: ["Next.js", "TypeScript", "OpenAI API", "Tailwind CSS"],
           image: "/projects/chatfinity.png",
           demoUrl: "https://Chatfinity.info",
@@ -64,7 +64,7 @@ export const personalInfo = {
         },
         {
           title: "myNb Document to Podcast",
-          description: "A web application that converts markdown notes into audio podcasts using Text-to-Speech API.",
+          description: "A web application that converts documents into audio podcasts, pdfchat and quizzes.",
           technologies: ["Next.js", "Postgresql", "Openai API", "Text to Speech API"],
           image: "/projects/mynb.png",
           demoUrl: "https://myNb.info/",
@@ -72,7 +72,7 @@ export const personalInfo = {
         },
         {
             title: "AI Interview Feedback Generator",
-            description: "Get AI-powered feedback on Job interview.",
+            description: "A fork of an open source code that lets you get AI-powered feedback on Job interview.",
             technologies: ["Next.js",  "Openai API"],
             image: "/projects/aiinterview.png",
             demoUrl: "https://ai-interview-feedback.vercel.app/",
