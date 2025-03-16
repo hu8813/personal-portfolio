@@ -59,7 +59,7 @@ const About: React.FC = () => {
               <div className="w-full h-full rounded-2xl overflow-hidden bg-gradient-to-br from-blue-600 to-purple-600 p-1">
                 <div className="w-full h-full rounded-xl overflow-hidden bg-gray-800 relative">
                   <Image 
-                    src="/huaydin.jpeg" 
+                    src="/huaydin.png" 
                     alt={personalInfo.name}
                     width={400}
                     height={500}

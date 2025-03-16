@@ -20,6 +20,9 @@ const robotoMono = Roboto_Mono({
 export const metadata: Metadata = {
   title: 'Hüseyin Kaya Aydin | Portfolio',
   description: 'Personal portfolio of Hüseyin Kaya Aydin - Junior Software Developer',
+  icons: {
+    icon: '/favicon.ico',
+  },
 };
 
 export default function RootLayout({
